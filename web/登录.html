@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登录</title>
+</head>
+<style>
+	body {
+		line-height:300%;
+		width: 100%;
+		height: 100%
+		background-color:#F0F0F0;
+		background-image: url("background.jpg")
+	}
+	select {
+		width: 160px;
+	}
+
+    .input_box {
+        border-color:cornflowerblue;
+		border: 1px solid cornflowerblue;
+		border-radius: 15px;
+	    height:30px;
+		width:150px;
+		}
+	span {
+		color: red;
+    }
+	.botton {
+		border:1px solid black;
+		background-color:deepskyblue;
+		padding: 8px 15px;
+		text-align: center;
+	    width:80px;
+		color: white;
+		border-radius: 17px;
+	}
+	.botton1{
+		background-color: lightgray;
+	}
+
+	.f{ /*对整个框的操作*/
+		
+		border:2px solid none;
+		padding:10px 40px; 
+		border-radius:10px;
+		width:25%;
+		height: 70%;
+		position: absolute;
+		top:60%;
+		left:80%;
+		transform: translate(-50%,-50%);
+	}
+	.d1{  /*对“用户登录”的操作*/
+		position: relative;
+		left: 43%;	
+	}
+	.d2{    /*对登录注册按钮的位置调整*/
+		position: relative;
+		left:36%;
+	}
+
+</style>
+<body>	
+	<form action="" class="f">
+		<h3 class="d1">用户登录</h3>
+		<table align="center">
+	        <tr>
+				<td align="right">用户名：</td>
+				<td><input class="input_box" type = "text" name = "user"></td>
+			</tr>
+	        <tr>
+				<td align="right">密码：</td>
+				<td><input class="input_box" type = "password" name = "password"></td>
+	        </tr>
+			
+
+		</table>
+	    <div class="d2">
+			 <input  class="botton" type="submit" value="登录" >
+			<input class="botton" type="submit"  value="注册" onclick=window.open("注册.html")>
+		</div>
+	</form>
+</body>
+</html>
