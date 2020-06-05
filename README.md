@@ -34,7 +34,7 @@
 
 ​            通过爬虫收集安居客官网上有关钱塘新区房价变化的数据
 
-![image-20200518101114091](C:\Users\THINKPAD\AppData\Roaming\Typora\typora-user-images\image-20200518101114091.png)
+![image-20200518101114091](https://i.loli.net/2020/06/05/CSzBx7adViFUkng.png)
 
 
 
@@ -67,7 +67,10 @@ for i in range(1,50):
             w.writerow(temp)
 ```
 
-![image-20200518101356806](C:\Users\THINKPAD\AppData\Roaming\Typora\typora-user-images\image-20200518101356806.png)
+
+![image-20200604194308354.png](https://i.loli.net/2020/06/05/HeK485XaGC17gBQ.png)
+
+
 
 对爬取的csv表格数据价格进行一系列的数据处理和清洗
 
@@ -108,13 +111,13 @@ plt.show()
 
 对价格数据进行初步可视化
 
-![image-20200518101536583](C:\Users\THINKPAD\AppData\Roaming\Typora\typora-user-images\image-20200518101536583.png)
+![image-20200518101536583]( https://i.loli.net/2020/06/05/HVJ5oSaKC6crU9j.png)
 
 发现对价格数据进行分析实际意义不大，没有可比性。丢弃原来的思路，重新找一个研究方向。
 
 对均价一列数据进行数据处理、清洗和分析。
 
-![image-20200518101624556](C:\Users\THINKPAD\AppData\Roaming\Typora\typora-user-images\image-20200518101624556.png)
+![image-20200518101624556](https://i.loli.net/2020/06/05/x1nvDGVu5HftPdT.png)
 
 去除均价一列除数字之外的字符串，输出一个只有数字的列表
 
@@ -152,7 +155,7 @@ line.render()
 
 
 
-![image-20200518101745449](C:\Users\THINKPAD\AppData\Roaming\Typora\typora-user-images\image-20200518101745449.png)
+![image-20200518101745449](https://i.loli.net/2020/06/05/ljMKfaXxebkcBVE.png)
 
 把均价数据进行分类可视化处理
 
@@ -262,9 +265,9 @@ if __name__ == '__main__':
     house('D://Python//Housedatas')
 ```
 
-![image-20200518102044482](C:\Users\THINKPAD\AppData\Roaming\Typora\typora-user-images\image-20200518102044482.png)
+![image-20200518102044482](https://i.loli.net/2020/06/05/AhfOoeXRpvkyw17.png)
 
-![image-20200518102148518](C:\Users\THINKPAD\AppData\Roaming\Typora\typora-user-images\image-20200518102148518.png)
+![image-20200518102148518](https://i.loli.net/2020/06/05/ItUCnGEXBRjfL5M.png)
 
 
 
@@ -334,7 +337,7 @@ plt.savefig("predict.jpg")
 plt.show()
 ```
 
-![image-20200518102409762](C:\Users\THINKPAD\AppData\Roaming\Typora\typora-user-images\image-20200518102409762.png)
+![image-20200518102409762](https://i.loli.net/2020/06/05/sozQTnxeDwa1KWJ.png)
 
 把均价数据与其他数据联系并进行可视化处理
 
@@ -415,14 +418,20 @@ pie.add("", attr, v1, is_label_show=True,
 pie.render(r"频次饼图.html")
 ```
 
-![image-20200518102647653](C:\Users\THINKPAD\AppData\Roaming\Typora\typora-user-images\image-20200518102647653.png)
+![image-20200518102647653](https://i.loli.net/2020/06/05/pcU7wRlVzLoTZhm.png)
 
-![image-20200518102710159](C:\Users\THINKPAD\AppData\Roaming\Typora\typora-user-images\image-20200518102710159.png)
+![image-20200518102710159](https://i.loli.net/2020/06/05/6fErQhxOmIotvPg.png)
 
-![image-20200518102753579](C:\Users\THINKPAD\AppData\Roaming\Typora\typora-user-images\image-20200518102753579.png)
+![image-20200518102753579](https://i.loli.net/2020/06/05/1zY3PiEk6tAF4p9.png)
 
-![image-20200518102817507](C:\Users\THINKPAD\AppData\Roaming\Typora\typora-user-images\image-20200518102817507.png)
+
+![image-20200604195812716.png](https://i.loli.net/2020/06/05/5E8zCh4jcyfFxbA.png)
+
+
+
 
 最后把所有的数据通过网页的形式展现出来（http://47.97.213.17:8080/houses/index.html）。
 
-![image-20200518102942356](C:\Users\THINKPAD\AppData\Roaming\Typora\typora-user-images\image-20200518102942356.png)
+
+![image-20200604195918554.png](https://i.loli.net/2020/06/05/hZOQqarUFMBCbmK.png)
+
