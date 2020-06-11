@@ -430,7 +430,7 @@ pie.render(r"频次饼图.html")
 
 
 
-最后把所有的数据通过网页的形式展现出来（http://47.97.213.17:8080/chuangxinshijian/index.html）。
+最后把所有的数据通过网页的形式展现出来（47.97.213.17:8080/chuangxinshijian/index.html）。
 
 
 ![image-20200604195918554.png](https://i.loli.net/2020/06/05/hZOQqarUFMBCbmK.png)
